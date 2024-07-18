@@ -1,0 +1,41 @@
+/* Center the table and table content */
+.center-table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.center-table th, .center-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Style buttons */
+.btn {
+    padding: 8px 12px;
+    margin: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: blue;
+}
+
+.btn-warning {
+    background-color: orange;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+.btn-success {
+    background-color: green;
+}
+
+/* Change the button color for update */
+form button.btn-primary {
+    background-color: green;
+}
